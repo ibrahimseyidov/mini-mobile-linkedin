@@ -1,0 +1,100 @@
+.share-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 43px;
+    padding: 20px;
+    margin-top: -15px;
+    border-bottom: 1px solid #E0DFDC;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.share-left {
+    display: flex;
+    align-items: center;
+}
+
+.share-left :first-child {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.share-left :first-child:hover {
+    opacity: 0.5;
+}
+
+.share-left :nth-child(2) {
+    font-size: 20px;
+    font-weight: 700;
+    color:#000;
+}
+
+.post-btn button {
+    background: transparent;
+    color: #585C60;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.post-btn button:hover {
+    opacity: 0.5;
+}
+
+.edit-btn button {
+    background: transparent;
+    color: #585C60;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.edit-btn button:hover {
+    opacity: 0.5;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+
+.name-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-info :first-child {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.profile-img {
+    margin-right: 10px;
+}
+
+.share-input {
+    margin-left: 20px;
+    margin-right: 49px;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    color: #585C60;
+    outline: none;
+    border: none;
+    padding: 10px;
+}

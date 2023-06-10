@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/reset.css">
+    <link rel="stylesheet" href="./assets/style/post.css">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/jquery.css">
+    <title>Linkedin Mobile</title>
+</head>
+
+<body>
+
+    <section class="first-sec" style="display: block;">
+        <header>
+            <div class="header">
+                <div class="my-profile">
+                    <img src="./assets/img/profile.png">
+                </div>
+                <div class="search-area">
+                    <img src="./assets/img/searchBtn.svg" class="search-btn">
+                    <input type="text" placeholder="Search" class="search-inp">
+                </div>
+                <div>
+                    <img src="./assets/img/messageBtn.svg">
+                </div>
+            </div>
+
+        </header>
+
+        <main>
+            <div class="main-container">
+            </div>
+
+            <div id="circle-progress"></div>
+        </main>
+
+        <footer>
+            <div class="ft-container">
+                <div class="footer-contain">
+                    <div class="home">
+                        <img src="./assets/img/homeBtn.svg">
+                        <span>Home</span>
+                    </div>
+                    <div class="friends">
+                        <img src="./assets/img/friends.svg">
+                        <span>My Network</span>
+                    </div>
+                    <div class="post">
+                        <button id="postBtn">
+                            <img src="./assets/img/post.svg">
+                        </button>
+                        <span>Post</span>
+                    </div>
+                    <div class="notification">
+                        <img src="./assets/img/notification.svg">
+                        <span>Notification</span>
+                    </div>
+                    <div class="jobs">
+                        <img src="./assets/img/job.svg">
+                        <span>Jobs</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </footer>
+    </section>
+
+
+
+
+
+    <section class="post-section second-sec" style="display: none;">
+
+        <div class="share-area">
+
+            <div class="share-left">
+                <button id="xBtn">
+                    <img src="./assets/img/xbtn.svg">
+                </button>
+                <span>Share post</span>
+            </div>
+
+            <div class="post-btn">
+                <button>Post</button>
+            </div>
+
+        </div>
+
+        <div class="profile-info">
+
+            <div class="profile-img">
+                <img src="./assets/img/profile.png">
+            </div>
+
+            <div class="name-info">
+                <span>Nurlan Quliyev</span>
+                <img src="./assets/img/anyone.svg">
+            </div>
+
+        </div>
+
+        <div class="share-input">
+            <textarea id="textArea" cols="30" rows="10" placeholder="What do you want to talk about?"></textarea>
+        </div>
+
+    </section>
+
+    
+    <section class="post-section third-sec" style="display: none;">
+
+        <div class="share-area">
+
+            <div class="share-left">
+                <button id="xbtn">
+                    <img src="./assets/img/xbtn.svg">
+                </button>
+                <span>Share post</span>
+            </div>
+
+            <div class="edit-btn">
+                <button>Edit</button>
+            </div>
+
+        </div>
+
+        <div class="profile-info">
+
+            <div class="profile-img">
+                <img src="./assets/img/profile.png">
+            </div>
+
+            <div class="name-info">
+                <span>Nurlan Quliyev</span>
+                <img src="./assets/img/anyone.svg">
+            </div>
+
+        </div>
+
+        <div class="share-input">
+            <textarea id="textAreaEdit" cols="30" rows="10" placeholder="What do you want to talk about?"></textarea>
+        </div>
+
+    </section>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
